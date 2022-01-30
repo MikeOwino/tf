@@ -4,7 +4,7 @@ on:
 
   push:
     branches:
-      - main
+      - master
       
   schedule:
   - cron: "*/10 * * * *"
@@ -29,14 +29,14 @@ jobs:
           git config --local user.name "MikeOwino"
           git add -A
           
-          arr[0]="tf"
-          arr[1]="tf"
-          arr[2]="tf"
-          arr[3]="tf"
-          arr[4]="tf"
-          arr[5]="tf"
-          arr[6]="tf"
-          arr[7]="tf"
+          arr[0]="update data"
+          arr[1]="update data"
+          arr[2]="update data"
+          arr[3]="update data"
+          arr[4]="update data"
+          arr[5]="update data"
+          arr[6]="update data"
+          arr[7]="update data"
           
           rand=$[$RANDOM % ${#arr[@]}]
           
